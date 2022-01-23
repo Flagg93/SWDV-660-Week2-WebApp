@@ -7,8 +7,9 @@ http.createServer(function (request, response) {
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
-   // Send the response body as "Hello World"
-   response.end('Hello World\n')
+   // Send the response body as "New Text Here"
+   // 01/23/22: Updated from "Hello World" per request by Andrew Dunn
+   response.end('New Text Here\n')
 }).listen(3333)
 
 // Console will print the message

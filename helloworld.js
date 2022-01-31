@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
 
    // Send the response body as "New Text Here"
    // 01/23/22: Updated from "Hello World" per request by Andrew Dunn
-   response.end('New Text Here\n')
+   response.end('Week 3 Text Here\nUpdated Using Ansible (hopefully....)')
 }).listen(3333)
 
 // Console will print the message
